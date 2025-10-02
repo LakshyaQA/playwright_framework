@@ -1,0 +1,1 @@
+[32mINFO    [0m PlaywrightTest:conftest.py:29 Launching chrome browser (headless=False).

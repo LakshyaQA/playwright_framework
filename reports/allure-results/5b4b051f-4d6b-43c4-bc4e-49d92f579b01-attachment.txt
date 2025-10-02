@@ -1,0 +1,2 @@
+[32mINFO    [0m PlaywrightTest:conftest.py:25 Launching firefox browser (headless=True).
+[32mINFO    [0m PlaywrightTest:conftest.py:30 Browser session stopped.

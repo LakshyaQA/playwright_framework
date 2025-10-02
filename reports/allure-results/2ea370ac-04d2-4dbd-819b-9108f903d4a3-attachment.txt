@@ -1,0 +1,7 @@
+[32mINFO    [0m PlaywrightTest:conftest.py:29 Launching chromium browser (headless=False).
+[32mINFO    [0m PlaywrightTest:test_base.py:11 Opening Aeye Portal
+[32mINFO    [0m PlaywrightTest:test_base.py:15 Username filled
+[32mINFO    [0m PlaywrightTest:test_base.py:19 Password filled
+[32mINFO    [0m PlaywrightTest:test_base.py:22 Login Button clicked successfully!
+[32mINFO    [0m PlaywrightTest:test_base.py:24 Test completed successfully!
+[32mINFO    [0m PlaywrightTest:conftest.py:34 Browser session stopped.

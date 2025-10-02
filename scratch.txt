@@ -1,0 +1,303 @@
+# ✅ **Playwright Framework Setup and Best Practices**
+
+## 🛠️ Installation Commands
+
+```bash
+# Install Pytest and Playwright
+pip install pytest-playwright
+
+# Install Playwright browsers (Chromium, Firefox, WebKit)
+playwright install
+
+# Install Allure for reporting
+pip install allure-pytest
+🧱 Project Folder Structure
+bash
+Copy code
+playwright_framework/
+│
+├── tests/
+│   └── test_search_thar.py         # Your test scripts
+│
+├── utils/
+│   ├── logger.py                   # Custom logger utility
+│   └── screenshot.py               # Screenshot capture utility
+│
+├── conftest.py                     # Global fixtures and hooks
+├── pytest.ini                      # Pytest configuration
+├── requirements.txt                # Pinned dependencies
+└── README.md                       # Project documentation (optional but recommended)
+💡 Key Concepts Explained
+✅ Playwright Test Execution
+bash
+Copy code
+pytest                     # Run all tests
+pytest -v                  # Verbose output
+pytest -s                  # Show print/log output
+pytest -m smoke            # Run tests marked with @pytest.mark.smoke
+pytest tests/test_file.py  # Run a specific test file
+✅ Allure Reporting
+bash
+Copy code
+pytest --alluredir=reports/allure-results    # Generate raw allure results
+allure serve reports/allure-results          # Open HTML report in browser
+✅ Capturing Requirements
+To freeze your environment:
+
+bash
+Copy code
+pip freeze > requirements.txt
+To install from requirements:
+
+bash
+Copy code
+pip install -r requirements.txt
+🧪 Pytest Core Concepts
+✅ Writing a Test
+python
+Copy code
+def test_example():
+    assert 1 + 1 == 2
+✅ Using Fixtures
+Fixtures allow reusable setup/teardown logic.
+
+python
+Copy code
+import pytest
+
+@pytest.fixture
+def setup_env():
+    print("Setup logic here")
+    yield
+    print("Teardown logic here")
+
+def test_using_fixture(setup_env):
+    print("Test logic here")
+The yield statement separates setup and teardown.
+
+Fixture scope can be: function, class, module, or session.
+
+Example:
+
+python
+Copy code
+@pytest.fixture(scope="module")
+def db_connection():
+    print("Opening DB connection")
+    yield
+    print("Closing DB connection")
+🧰 Pytest Fixture Scoping
+Scope	Behavior
+function	Runs before each test function
+class	Runs once per test class
+module	Runs once per test file
+session	Runs once per test session
+
+✅ Test Markers
+python
+Copy code
+@pytest.mark.smoke
+def test_login():
+    ...
+To skip a test:
+
+python
+Copy code
+@pytest.mark.skip(reason="Under development")
+def test_payment():
+    ...
+Run specific marker:
+
+bash
+Copy code
+pytest -m smoke
+🔁 Conftest.py
+Global fixtures go in conftest.py.
+
+Tests will automatically look for fixtures in this file.
+
+Example:
+
+python
+Copy code
+# conftest.py
+@pytest.fixture
+def browser_context():
+    ...
+🌐 Playwright Core Concepts (Python)
+✅ Launch Browser (Manual)
+python
+Copy code
+from playwright.sync_api import sync_playwright
+
+def test_browser_control():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        context = browser.new_context()
+        page = context.new_page()
+        page.goto("https://example.com")
+        browser.close()
+✅ Headless vs Headed
+headless=True → browser runs without UI (default in CI).
+
+headless=False → useful for local debugging.
+
+✅ Using Built-in page Fixture
+Playwright provides its own page fixture if you don't need custom setup:
+
+python
+Copy code
+from playwright.sync_api import Page
+
+def test_google(page: Page):
+    page.goto("https://google.com")
+    assert "Google" in page.title()
+But:
+
+It always runs headless
+
+Always uses Chromium
+
+So if you want:
+
+headless=False
+
+Fullscreen window
+
+Custom browser (e.g., Firefox, WebKit)
+
+👉 You must define your own fixture using sync_playwright().
+
+✅ Browser Context = Incognito Mode
+Every call to new_context() creates a separate, isolated browser session:
+
+python
+Copy code
+context1 = browser.new_context()
+context2 = browser.new_context()
+They don't share cookies, localStorage, sessions, etc.
+
+🎯 Launching in Fullscreen (like Selenium maximize)
+Playwright does not have a .maximize_window() like Selenium, but you can mimic it by:
+
+python
+Copy code
+browser = p.chromium.launch(headless=False, args=["--start-fullscreen"])
+context = browser.new_context(viewport={'width': 1920, 'height': 1080})
+✅ Tip: Always pass integers, not strings, to viewport.
+
+🧰 Debugging Tools
+✅ Playwright Inspector
+Record and debug interactions visually:
+
+bash
+Copy code
+playwright codegen https://demo.playwright.dev/todomvc
+✅ Tracing
+Capture a trace (screenshots, network, DOM snapshots):
+
+bash
+Copy code
+pytest --tracing=on
+Then open the trace viewer:
+
+bash
+Copy code
+playwright show-trace trace.zip
+❌ Limitations
+Playwright does not support native Android/iOS apps (unlike Appium).
+
+Codegen is great for fast start but:
+
+❌ Does not auto-generate assertions
+
+❌ Does not handle assertion logic
+
+⚠️ Best used for learning selectors, not production tests.
+
+🎯 Advanced Locators
+✅ Aria Locators
+Playwright supports accessibility-first locators:
+
+python
+Copy code
+page.get_by_role("button", name="Submit")
+page.get_by_label("Email")
+More stable than raw CSS or XPath.
+
+🔄 BDD vs TDD in Playwright
+TDD	BDD
+Write tests before code	Write behavior specs before tests
+Tests for developers	Specs for business + devs
+Example: assert page.title()	Example: Given-When-Then syntax
+Tools: pytest	Tools: behave, pytest-bdd
+
+✅ Final Summary: Pro-Level Playwright Tips
+🔄 Use viewport={'width': 1920, 'height': 1080} for fullscreen-like behavior.
+
+📁 Keep conftest.py for global reusable fixtures.
+
+📷 Integrate Allure for beautiful reports.
+
+🧪 Use pytest.mark to categorize and filter tests.
+
+🧰 Use codegen for quick prototyping, not real tests.
+
+🔥 Master tracing, locators, and context management.
+
+💬 Use BDD if your team includes non-technical stakeholders.
+
+
+
+The Problem:
+Strict Mode: Playwright is in strict mode, which means it expects that locators should resolve to a single element. If a locator resolves to more than one element, Playwright will throw this error to avoid ambiguity.
+
+
+Use nth() to Specify the Element:
+ If there are multiple elements with the same label, you can specify which one you want to interact with by using the nth() function, which allows you to select the nth occurrence of an element.
+For example, if the second "Password" field is the one you want to interact with, you can use:
+page.locator('label:has-text("Password")').nth(1).click()
+
+This will click on the second element with the label "Password".
+
+page.locator('#password')
+
+page.locator('button[tabindex="2"]').click()
+
+pytest Hook:
+ - pytest_runtest_makereport:
+
+
+This hook is triggered after a test is executed. It provides details about the test execution, including whether it passed or failed.
+
+
+result.when == "call": This ensures that the hook only runs after the actual test code (not before or after hooks).
+
+
+result.failed: Checks if the test has failed.
+
+
+Capturing Screenshot:
+
+
+If the test fails, the capture_screenshot function is called to save a screenshot of the current state of the browser.
+
+
+The screenshot is saved locally and the path to the screenshot is logged.
+
+
+Attaching Screenshot in Allure Report:
+
+
+The page.screenshot() method captures the current page view and attaches it to the Allure report as a PNG file.
+
+
+Attaching Logs to Allure:
+
+
+Additionally, a reference to the log file (path) is attached to the Allure report, which can be useful for debugging.
+
+
+pytest --mybrowser=firefox --headless=True
+
+

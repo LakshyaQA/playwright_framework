@@ -1,0 +1,41 @@
+# Run on Firefox (headed mode)
+pytest -s -v Testcases/test_base.py --mybrowser=firefox --alluredir=reports/allure-results
+After tests finish, generate the report:
+ ---------- allure serve reports/allure-results
+
+Run a specific test file,Runs all tests in that file.
+---------------- pytest -s -v Testcases/test_base.py --alluredir=reports/allure-results---------
+ -----------
+
+# -s → show print/log output
+#-v → verbose (shows each test name)
+--mybrowser → selects browser
+--headless → optional headless mode
+--alluredir → stores Allure report data
+
+-------------- pytest -s test_base.py -----------------
+
+# Run on Chromium (headed mode)
+pytest -v ----mybrowser=chromium
+# Run Chromium in headed mode
+pytest -s -v Testcases/test_base.py --mybrowser=chromium --alluredir=reports/allure-results
+
+
+# Run on Firefox (headed mode)
+pytest -v --mybrowser=chromium=firefox
+
+# Run on WebKit (headed mode)
+pytest -v --mybrowser=chromium=webkit
+
+# Run on Chromium in headless mode
+pytest -v ----mybrowser=chromium --headless
+# Run Chromium in headless mode
+pytest -s -v Testcases/test_base.py --mybrowser=chromium --headless --alluredir=reports/allure-results
+
+In CI/CD (Jenkins, GitLab, GitHub Actions), you usually set:
+
+pytest -s -v Testcases/test_base.py --my--mybrowser=chromium --headless --alluredir=reports/allure-results
+
+Runs only tests with that marker.
+pytest -s -v -m regression --alluredir=reports/allure-results
+

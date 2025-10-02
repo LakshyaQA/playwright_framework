@@ -1,0 +1,3 @@
+[32mINFO    [0m PlaywrightTest:conftest.py:25 Launching firefox browser (headless=False).
+[32mINFO    [0m PlaywrightTest:test_base.py:11 Opening Aeye Portal
+[32mINFO    [0m PlaywrightTest:conftest.py:30 Browser session stopped.

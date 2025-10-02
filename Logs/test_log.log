@@ -1,0 +1,30 @@
+2025-10-02 12:37:34,091 - INFO - Launching chromium browser (headless=True).
+2025-10-02 12:37:40,256 - INFO - Opening Aeye Portal
+2025-10-02 12:37:40,413 - INFO - Username filled
+2025-10-02 12:37:40,481 - INFO - Password filled
+2025-10-02 12:38:10,915 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_run_one_20251002-123810.png
+2025-10-02 12:38:11,043 - INFO - Screenshot and log info attached to Allure report.
+2025-10-02 12:38:11,125 - INFO - Browser session stopped.
+2025-10-02 12:52:37,445 - INFO - Launching firefox browser (headless=False).
+2025-10-02 12:52:43,514 - INFO - Opening Aeye Portal
+2025-10-02 12:52:43,745 - INFO - Username filled
+2025-10-02 12:52:43,905 - INFO - Password filled
+2025-10-02 12:52:44,084 - INFO - Login Button clicked successfully!
+2025-10-02 12:52:44,084 - INFO - Test completed successfully!
+2025-10-02 12:52:44,883 - INFO - Browser session stopped.
+2025-10-02 13:00:45,021 - INFO - Launching firefox browser (headless=False).
+2025-10-02 13:01:15,717 - INFO - Opening Aeye Portal
+2025-10-02 13:01:46,032 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_run_one_20251002-130145.png
+2025-10-02 13:01:46,070 - INFO - Screenshot and log info attached to Allure report.
+2025-10-02 13:01:46,803 - INFO - Browser session stopped.
+2025-10-02 13:06:04,571 - INFO - Launching firefox browser (headless=False).
+2025-10-02 13:06:14,288 - INFO - Browser session stopped.
+2025-10-02 13:08:12,508 - INFO - Launching chrome browser (headless=False).
+2025-10-02 13:08:25,549 - INFO - Launching chrommium browser (headless=False).
+2025-10-02 13:08:56,079 - INFO - Launching chromium browser (headless=False).
+2025-10-02 13:08:59,060 - INFO - Opening Aeye Portal
+2025-10-02 13:08:59,158 - INFO - Username filled
+2025-10-02 13:08:59,224 - INFO - Password filled
+2025-10-02 13:08:59,283 - INFO - Login Button clicked successfully!
+2025-10-02 13:08:59,283 - INFO - Test completed successfully!
+2025-10-02 13:08:59,542 - INFO - Browser session stopped.
