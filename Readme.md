@@ -61,33 +61,34 @@ testpaths = Testcases
 
 -----------------------------------------------------------------------------------------------------------
 
-📁 **Project Structure**
-'''playwright_framework/
+## 📁 playwright_framework
+
+```Python
+playwright_framework/
 │
-├── .venv/ # Virtual environment
-├── Base/ # Base configurations
-│ ├── __init__.py
-│ ├── base_page.py
-│ └── playwright_factory.py
-├── Logs/ # Test execution logs
-│ └── test_log.log
-├── PageObject/ # Page Object Models
-│ └── __init__.py
-├── reports/ # Test reports
-│ ├── allure-results/ # Raw allure data
-│ └── allure-report/ # Generated HTML reports
-├── screenshots/ # Test screenshots
-├── Testcases/ # Test files
-│ ├── __init__.py
-│ ├── test_base.py
-│ └── test_search_thar.py
-├── Utilities/ # Utility functions
-│ ├── __init__.py
-│ ├── logger.py
-│ └── screenshot.py
-├── commands.txt # Useful commands
-├── conftest.py # Pytest fixtures
-├── pytest.ini # Pytest configuration
-├── Readme.md # Project documentation
-├── requirements.txt # Python dependencies
-└── scratch.txt # Notes'''
+├── .venv/
+├── base/
+│   ├── __init__.py
+│   ├── base_page.py
+│   └── playwright_factory.py
+├── logs/
+│   └── test_log.log
+├── page_objects/
+│   └── __init__.py
+├── reports/
+│   ├── allure-results/
+│   └── allure-report/
+├── screenshots/
+├── tests/
+│   ├── __init__.py
+│   ├── test_base.py
+│   └── test_search_thar.py
+├── utilities/
+│   ├── __init__.py
+│   ├── logger.py
+│   └── screenshot.py
+│
+├── conftest.py
+├── pytest.ini
+├── README.md
+└── requirements.txt 
