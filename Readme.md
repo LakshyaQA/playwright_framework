@@ -61,8 +61,8 @@ testpaths = Testcases
 
 -----------------------------------------------------------------------------------------------------------
 
-📁 Project Structure
-playwright_framework/
+📁 **Project Structure**
+'''playwright_framework/
 │
 ├── .venv/ # Virtual environment
 ├── Base/ # Base configurations
@@ -90,5 +90,4 @@ playwright_framework/
 ├── pytest.ini # Pytest configuration
 ├── Readme.md # Project documentation
 ├── requirements.txt # Python dependencies
-└── scratch.txt # Notes
-
+└── scratch.txt # Notes'''
