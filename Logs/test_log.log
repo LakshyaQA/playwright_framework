@@ -28,3 +28,97 @@
 2025-10-02 13:08:59,283 - INFO - Login Button clicked successfully!
 2025-10-02 13:08:59,283 - INFO - Test completed successfully!
 2025-10-02 13:08:59,542 - INFO - Browser session stopped.
+2025-10-02 16:15:03,008 - INFO - Launching chromium browser (headless=False).
+2025-10-02 16:15:06,468 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:15:06,468 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:15:06,528 - INFO - Username filled
+2025-10-02 16:15:06,556 - INFO - Password filled
+2025-10-02 16:15:06,617 - INFO - Login button clicked
+2025-10-02 16:15:06,618 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-02 16:15:06,949 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_successful_login_20251002-161506.png
+2025-10-02 16:15:07,073 - INFO - Screenshot and log info attached to Allure report.
+2025-10-02 16:15:07,353 - INFO - Browser session stopped.
+2025-10-02 16:17:52,109 - INFO - Launching chromium browser (headless=False).
+2025-10-02 16:17:54,655 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:17:54,655 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:17:54,719 - INFO - Username filled
+2025-10-02 16:17:54,748 - INFO - Password filled
+2025-10-02 16:17:54,823 - INFO - Login button clicked
+2025-10-02 16:17:54,823 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-02 16:17:55,152 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_successful_login_20251002-161754.png
+2025-10-02 16:17:55,278 - INFO - Screenshot and log info attached to Allure report.
+2025-10-02 16:17:55,534 - INFO - Browser session stopped.
+2025-10-02 16:23:41,061 - INFO - Launching chromium browser (headless=False).
+2025-10-02 16:23:43,704 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:23:43,704 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:23:43,758 - INFO - Username filled
+2025-10-02 16:23:43,793 - INFO - Password filled
+2025-10-02 16:23:43,861 - INFO - Login button clicked
+2025-10-02 16:23:43,862 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-02 16:23:46,029 - INFO - Browser session stopped.
+2025-10-02 16:25:20,738 - INFO - Launching chromium browser (headless=False).
+2025-10-02 16:25:43,942 - INFO - Browser session stopped.
+2025-10-02 16:25:48,291 - INFO - Launching chromium browser (headless=False).
+2025-10-02 16:25:51,838 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:25:51,838 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:25:51,894 - INFO - Username filled
+2025-10-02 16:25:51,922 - INFO - Password filled
+2025-10-02 16:25:51,991 - INFO - Login button clicked
+2025-10-02 16:25:51,992 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-02 16:25:53,373 - INFO - Test completed successfully.
+2025-10-02 16:25:53,656 - INFO - Browser session stopped.
+2025-10-02 16:26:25,601 - INFO - Launching chromium browser (headless=False).
+2025-10-02 16:26:28,827 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:26:28,827 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:26:28,882 - INFO - Username filled
+2025-10-02 16:26:28,914 - INFO - Password filled
+2025-10-02 16:26:28,983 - INFO - Login button clicked
+2025-10-02 16:26:28,983 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-02 16:26:30,385 - INFO - Login successful — Dashboard loaded.
+2025-10-02 16:26:30,396 - INFO - Test completed successfully.
+2025-10-02 16:26:30,677 - INFO - Browser session stopped.
+2025-10-02 16:26:38,428 - INFO - Launching chromium browser (headless=False).
+2025-10-02 16:26:40,991 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:26:40,991 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-02 16:26:41,048 - INFO - Username filled
+2025-10-02 16:26:41,081 - INFO - Password filled
+2025-10-02 16:26:41,169 - INFO - Login button clicked
+2025-10-02 16:26:41,169 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-02 16:26:42,564 - INFO - Login successful — Dashboard loaded.
+2025-10-02 16:26:42,575 - INFO - Test completed successfully.
+2025-10-02 16:26:42,903 - INFO - Browser session stopped.
+2025-10-02 18:05:09,667 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:06:50,793 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:08:43,284 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:10:45,157 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:11:20,000 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_serach_iphone_20251002-181119.png
+2025-10-02 18:11:20,167 - INFO - Screenshot and log info attached to Allure report.
+2025-10-02 18:11:20,475 - INFO - Browser session stopped.
+2025-10-02 18:15:24,455 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:15:28,726 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_serach_iphone_20251002-181528.png
+2025-10-02 18:15:30,803 - INFO - Screenshot and log info attached to Allure report.
+2025-10-02 18:15:31,161 - INFO - Browser session stopped.
+2025-10-02 18:19:10,166 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:19:19,455 - INFO - Browser session stopped.
+2025-10-02 18:23:43,343 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:23:52,636 - INFO - Browser session stopped.
+2025-10-02 18:26:42,800 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:26:54,857 - INFO - Browser session stopped.
+2025-10-02 18:27:47,215 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:28:00,388 - INFO - Browser session stopped.
+2025-10-02 18:28:22,390 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:28:36,607 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_serach_iphone_20251002-182836.png
+2025-10-02 18:28:36,841 - INFO - Screenshot and log info attached to Allure report.
+2025-10-02 18:28:37,132 - INFO - Browser session stopped.
+2025-10-02 18:31:54,903 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:32:36,250 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_search_iphone_20251002-183235.png
+2025-10-02 18:32:36,393 - INFO - Screenshot and log info attached to Allure report.
+2025-10-02 18:32:36,708 - INFO - Browser session stopped.
+2025-10-02 18:34:30,957 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:34:45,601 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_search_iphone_20251002-183445.png
+2025-10-02 18:34:45,748 - INFO - Screenshot and log info attached to Allure report.
+2025-10-02 18:34:46,079 - INFO - Browser session stopped.
+2025-10-02 18:35:23,654 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:35:30,922 - INFO - Browser session stopped.
+2025-10-02 18:37:35,452 - INFO - Launching chromium browser (headless=False).
+2025-10-02 18:37:42,682 - INFO - Browser session stopped.

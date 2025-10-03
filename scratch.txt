@@ -301,3 +301,81 @@ Additionally, a reference to the log file (path) is attached to the Allure repor
 pytest --mybrowser=firefox --headless=True
 
 
+playwright.chromium.launch() launches browser,new_context() creates incognito session
+to assert uses expect() with to_be_visible(),to_have_text(),to_have_url() etc..
+global timeout is 10 either it wait samrtly till emement visible and if find early gets done
+its to fast it doesnt wait sometimes we can use wait_for_timeout(2000) 2 sec OR use
+
+Assertion andvalidation
+we have filled wrong email we need to get alert visible or not -
+we can use page.get_by_text("message").is_visible()
+we nned to either this was visible or not we expect it to be true or false or visible
+ Use expect() from playwright.sync_api import expect ,
+ expect(page.get_by_text("message")).to_be_visible() or .not_to_be_visible()
+
+base will by deafault runs chromium in headless mode but if ant tot run in frirefox need to ue Playwright
+by creating objecy of it (playwright : Playwright) and then use playwright.firefox.launch(headless=False)
+and importing from playwright.sync_api import Playwright,expect,page
+
+firefox = playwright.firefox
+browser = firefox.launch(headless=False)
+page = firefox.new_page() Note for single page we can skip using context
+
+in playwright there imp method called get_by_role() asking to identify role based components
+
+combobox having 3 feilds then we will use .select_option(value="option1")
+
+Identify locator for playwright
+
+label - has-text("Password")
+when ever identifying lable we need to make sure it have lable attribute or tag and
+ if we want to do fill it should have Input tag in it so we can use .fill() method
+
+ input not wrapped in label tag  but  id=username relates to for=username is present
+ <label> for=Password</label>
+ <br>
+ <input type="password" id="password" name="password">
+
+ input wrapped in label tag
+ <label>password <input type="password"/></label>  # valid
+
+page.get_by_role("button", name="Sign in").click()
+we passing another check there will be multiple button on page
+
+Anchor tag - a - have link in href link and there will all anchor tag
+have role link to identify uniqque link ,try getting it from name attribute for
+exaple click here to open pdf
+
+checkbox using css selector - to use we will use locator method
+page.locator('input[type="checkbox"]').check()  # to check
+page.locator('input[type="checkbox"]').uncheck()  # to uncheck
+if ID is present #id
+if class name present .classname
+if name attribute present [name="name"]
+if href present [href="link"]
+
+You can use XPath selectors directly in Playwright using:
+
+📌 Syntax:
+page.locator('//your/xpath/here')
+
+Dynamic writting
+
+
+Scenario
+
+Xpath //div[@data-cy='title-recipe']/a/h2/span
+titles = page.locator('[data-cy="title-recipe"]')
+
+# Find the specific one
+target = titles.filter(has_text="Apple iPhone 15 (128 GB) - Blue")
+for i in range(titles.count()):
+    print(await titles.nth(i).inner_text())
+
+
+
+
+
+
+
+

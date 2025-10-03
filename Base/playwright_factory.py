@@ -1,4 +1,5 @@
 from playwright.sync_api import sync_playwright
+# from pytest_playwright.pytest_playwright import playwright
 
 
 class PlaywrightFactory:
@@ -13,7 +14,7 @@ class PlaywrightFactory:
 
     def start_browser(self):
         self.playwright = sync_playwright().start()
-
+        # playwright.chromium.launch()
         if self.browser_name == "chromium":
             self.browser = self.playwright.chromium.launch(headless=self.headless, args=self.args)
         elif self.browser_name == "firefox":
