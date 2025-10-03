@@ -37,24 +37,26 @@ You can run tests with different browsers and modes (headed/headless) using comm
 
 ### ✅ Run on **Any Browser** (Headed/Headless Mode) :
 
-✅ Run Tests on Chrome (Headed Mode)
+# ✅ Run Tests on Chrome (Headed Mode)
 pytest -s -v Testcases/test_base.py --mybrowser=firefox --alluredir=reports/allure-results
-✅ Run Tests on Chrome (Headless Mode)
+
+# ✅ Run Tests on Chrome (Headless Mode)
 pytest -s -v Testcases/test_base.py --mybrowser=chromium --alluredir=reports/allure-results
 
 -------------------------------------------------------------------------------------------------------------------
 
-📊 Generating Reports
+## 📊 Generating Reports
 Generate and Open Allure Report
 allure serve reports/allure-results
 
 ------------------------------------------------------------------------------------------------------------
-🔧 Configuration
+##🔧 Configuration
 Browser Options
+## --mybrowser: Choose browser (chrome, firefox, webkit)
 
---mybrowser: Choose browser (chrome, firefox, webkit)
---headed: Run in headed mode (true/false)
-Example Configuration in pytest.ini
+## --headed: Run in headed mode (true/false)
+
+## Example Configuration in pytest.ini
 ini[pytest]
 addopts = -v -s --alluredir=reports/allure-results
 testpaths = Testcases
