@@ -26,19 +26,7 @@ class LoginPage(BasePage):
         self.navigate_to(url)
         self.logger.info(f"Navigated to: {url}")
 
-    def fill_username(self, username: str):
-        self.page.get_by_label(LoginPageLocators.USERNAME_LABEL).fill(username)
-        self.logger.info("Username filled")
-
-    def fill_password(self, password: str):
-        self.page.locator(LoginPageLocators.PASSWORD_INPUT).fill(password)
-        self.logger.info("Password filled")
-
-    def click_login_button(self):
-        self.page.locator(LoginPageLocators.LOGIN_BUTTON).click()
-        self.logger.info("Login button clicked")
-
-    def login_with_credentials(self, username: str, password: str):
+    def login_with_credentials(self, username, password):
         """Perform full login sequence"""
         self.fill_username(username)
         self.fill_password(password)
@@ -51,6 +39,18 @@ class LoginPage(BasePage):
             self.page.screenshot(path="login_failed.png")
             self.logger.error(f"Login failed or dashboard not visible: {e}")
             raise
+
+    def fill_username(self, username):
+        self.page.get_by_label(LoginPageLocators.USERNAME_LABEL).fill(username)
+        self.logger.info("Username filled")
+
+    def fill_password(self, password):
+        self.page.locator(LoginPageLocators.PASSWORD_INPUT).fill(password)
+        self.logger.info("Password filled")
+
+    def click_login_button(self):
+        self.page.locator(LoginPageLocators.LOGIN_BUTTON).click()
+        self.logger.info("Login button clicked")
 
     def is_logged_in(self) -> bool:
         """Verify login success by checking visibility of a post-login element"""

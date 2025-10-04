@@ -1,124 +1,181 @@
-2025-10-02 12:37:34,091 - INFO - Launching chromium browser (headless=True).
-2025-10-02 12:37:40,256 - INFO - Opening Aeye Portal
-2025-10-02 12:37:40,413 - INFO - Username filled
-2025-10-02 12:37:40,481 - INFO - Password filled
-2025-10-02 12:38:10,915 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_run_one_20251002-123810.png
-2025-10-02 12:38:11,043 - INFO - Screenshot and log info attached to Allure report.
-2025-10-02 12:38:11,125 - INFO - Browser session stopped.
-2025-10-02 12:52:37,445 - INFO - Launching firefox browser (headless=False).
-2025-10-02 12:52:43,514 - INFO - Opening Aeye Portal
-2025-10-02 12:52:43,745 - INFO - Username filled
-2025-10-02 12:52:43,905 - INFO - Password filled
-2025-10-02 12:52:44,084 - INFO - Login Button clicked successfully!
-2025-10-02 12:52:44,084 - INFO - Test completed successfully!
-2025-10-02 12:52:44,883 - INFO - Browser session stopped.
-2025-10-02 13:00:45,021 - INFO - Launching firefox browser (headless=False).
-2025-10-02 13:01:15,717 - INFO - Opening Aeye Portal
-2025-10-02 13:01:46,032 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_run_one_20251002-130145.png
-2025-10-02 13:01:46,070 - INFO - Screenshot and log info attached to Allure report.
-2025-10-02 13:01:46,803 - INFO - Browser session stopped.
-2025-10-02 13:06:04,571 - INFO - Launching firefox browser (headless=False).
-2025-10-02 13:06:14,288 - INFO - Browser session stopped.
-2025-10-02 13:08:12,508 - INFO - Launching chrome browser (headless=False).
-2025-10-02 13:08:25,549 - INFO - Launching chrommium browser (headless=False).
-2025-10-02 13:08:56,079 - INFO - Launching chromium browser (headless=False).
-2025-10-02 13:08:59,060 - INFO - Opening Aeye Portal
-2025-10-02 13:08:59,158 - INFO - Username filled
-2025-10-02 13:08:59,224 - INFO - Password filled
-2025-10-02 13:08:59,283 - INFO - Login Button clicked successfully!
-2025-10-02 13:08:59,283 - INFO - Test completed successfully!
-2025-10-02 13:08:59,542 - INFO - Browser session stopped.
-2025-10-02 16:15:03,008 - INFO - Launching chromium browser (headless=False).
-2025-10-02 16:15:06,468 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:15:06,468 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:15:06,528 - INFO - Username filled
-2025-10-02 16:15:06,556 - INFO - Password filled
-2025-10-02 16:15:06,617 - INFO - Login button clicked
-2025-10-02 16:15:06,618 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
-2025-10-02 16:15:06,949 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_successful_login_20251002-161506.png
-2025-10-02 16:15:07,073 - INFO - Screenshot and log info attached to Allure report.
-2025-10-02 16:15:07,353 - INFO - Browser session stopped.
-2025-10-02 16:17:52,109 - INFO - Launching chromium browser (headless=False).
-2025-10-02 16:17:54,655 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:17:54,655 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:17:54,719 - INFO - Username filled
-2025-10-02 16:17:54,748 - INFO - Password filled
-2025-10-02 16:17:54,823 - INFO - Login button clicked
-2025-10-02 16:17:54,823 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
-2025-10-02 16:17:55,152 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_successful_login_20251002-161754.png
-2025-10-02 16:17:55,278 - INFO - Screenshot and log info attached to Allure report.
-2025-10-02 16:17:55,534 - INFO - Browser session stopped.
-2025-10-02 16:23:41,061 - INFO - Launching chromium browser (headless=False).
-2025-10-02 16:23:43,704 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:23:43,704 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:23:43,758 - INFO - Username filled
-2025-10-02 16:23:43,793 - INFO - Password filled
-2025-10-02 16:23:43,861 - INFO - Login button clicked
-2025-10-02 16:23:43,862 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
-2025-10-02 16:23:46,029 - INFO - Browser session stopped.
-2025-10-02 16:25:20,738 - INFO - Launching chromium browser (headless=False).
-2025-10-02 16:25:43,942 - INFO - Browser session stopped.
-2025-10-02 16:25:48,291 - INFO - Launching chromium browser (headless=False).
-2025-10-02 16:25:51,838 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:25:51,838 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:25:51,894 - INFO - Username filled
-2025-10-02 16:25:51,922 - INFO - Password filled
-2025-10-02 16:25:51,991 - INFO - Login button clicked
-2025-10-02 16:25:51,992 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
-2025-10-02 16:25:53,373 - INFO - Test completed successfully.
-2025-10-02 16:25:53,656 - INFO - Browser session stopped.
-2025-10-02 16:26:25,601 - INFO - Launching chromium browser (headless=False).
-2025-10-02 16:26:28,827 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:26:28,827 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:26:28,882 - INFO - Username filled
-2025-10-02 16:26:28,914 - INFO - Password filled
-2025-10-02 16:26:28,983 - INFO - Login button clicked
-2025-10-02 16:26:28,983 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
-2025-10-02 16:26:30,385 - INFO - Login successful — Dashboard loaded.
-2025-10-02 16:26:30,396 - INFO - Test completed successfully.
-2025-10-02 16:26:30,677 - INFO - Browser session stopped.
-2025-10-02 16:26:38,428 - INFO - Launching chromium browser (headless=False).
-2025-10-02 16:26:40,991 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:26:40,991 - INFO - Navigated to: https://dev.aeye.pro/itc/login
-2025-10-02 16:26:41,048 - INFO - Username filled
-2025-10-02 16:26:41,081 - INFO - Password filled
-2025-10-02 16:26:41,169 - INFO - Login button clicked
-2025-10-02 16:26:41,169 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
-2025-10-02 16:26:42,564 - INFO - Login successful — Dashboard loaded.
-2025-10-02 16:26:42,575 - INFO - Test completed successfully.
-2025-10-02 16:26:42,903 - INFO - Browser session stopped.
-2025-10-02 18:05:09,667 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:06:50,793 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:08:43,284 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:10:45,157 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:11:20,000 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_serach_iphone_20251002-181119.png
-2025-10-02 18:11:20,167 - INFO - Screenshot and log info attached to Allure report.
-2025-10-02 18:11:20,475 - INFO - Browser session stopped.
-2025-10-02 18:15:24,455 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:15:28,726 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_serach_iphone_20251002-181528.png
-2025-10-02 18:15:30,803 - INFO - Screenshot and log info attached to Allure report.
-2025-10-02 18:15:31,161 - INFO - Browser session stopped.
-2025-10-02 18:19:10,166 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:19:19,455 - INFO - Browser session stopped.
-2025-10-02 18:23:43,343 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:23:52,636 - INFO - Browser session stopped.
-2025-10-02 18:26:42,800 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:26:54,857 - INFO - Browser session stopped.
-2025-10-02 18:27:47,215 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:28:00,388 - INFO - Browser session stopped.
-2025-10-02 18:28:22,390 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:28:36,607 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_serach_iphone_20251002-182836.png
-2025-10-02 18:28:36,841 - INFO - Screenshot and log info attached to Allure report.
-2025-10-02 18:28:37,132 - INFO - Browser session stopped.
-2025-10-02 18:31:54,903 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:32:36,250 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_search_iphone_20251002-183235.png
-2025-10-02 18:32:36,393 - INFO - Screenshot and log info attached to Allure report.
-2025-10-02 18:32:36,708 - INFO - Browser session stopped.
-2025-10-02 18:34:30,957 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:34:45,601 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_search_iphone_20251002-183445.png
-2025-10-02 18:34:45,748 - INFO - Screenshot and log info attached to Allure report.
-2025-10-02 18:34:46,079 - INFO - Browser session stopped.
-2025-10-02 18:35:23,654 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:35:30,922 - INFO - Browser session stopped.
-2025-10-02 18:37:35,452 - INFO - Launching chromium browser (headless=False).
-2025-10-02 18:37:42,682 - INFO - Browser session stopped.
+2025-10-03 22:20:53,360 - INFO - Launching chromium browser (headless=False).
+2025-10-03 22:20:58,848 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_search_iphone_20251003-222058.png
+2025-10-03 22:20:59,098 - INFO - Screenshot and log info attached to Allure report.
+2025-10-03 22:20:59,435 - INFO - Browser session stopped.
+2025-10-04 00:40:29,746 - INFO - Launching chromium browser (headless=False).
+2025-10-04 00:40:42,925 - INFO - Browser session stopped.
+2025-10-04 01:31:49,991 - INFO - Launching chromium browser (headless=False).
+2025-10-04 01:31:51,662 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_api_example_20251004-013151.png
+2025-10-04 01:31:51,776 - INFO - Screenshot and log info attached to Allure report.
+2025-10-04 01:31:52,070 - INFO - Browser session stopped.
+2025-10-04 01:34:45,919 - INFO - Launching chromium browser (headless=False).
+2025-10-04 01:34:47,583 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_api_example_20251004-013447.png
+2025-10-04 01:34:47,870 - INFO - Screenshot and log info attached to Allure report.
+2025-10-04 01:34:48,098 - INFO - Browser session stopped.
+2025-10-04 01:35:45,468 - INFO - Launching chromium browser (headless=False).
+2025-10-04 01:35:50,918 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 01:35:50,918 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 01:35:51,172 - INFO - Browser session stopped.
+2025-10-04 01:36:00,493 - INFO - Launching chromium browser (headless=False).
+2025-10-04 01:36:04,871 - INFO - Browser session stopped.
+2025-10-04 01:36:34,824 - INFO - Launching chromium browser (headless=False).
+2025-10-04 01:36:38,985 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 01:36:38,986 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 01:36:39,041 - INFO - Username filled
+2025-10-04 01:36:39,071 - INFO - Password filled
+2025-10-04 01:36:39,130 - INFO - Login button clicked
+2025-10-04 01:36:39,130 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 01:36:40,492 - INFO - Login successful — Dashboard loaded.
+2025-10-04 01:36:40,766 - INFO - Browser session stopped.
+2025-10-04 01:55:46,433 - INFO - Launching chromium browser (headless=False).
+2025-10-04 01:55:48,258 - INFO - Browser session stopped.
+2025-10-04 01:58:39,465 - INFO - Launching chromium browser (headless=False).
+2025-10-04 01:58:45,250 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 01:58:45,250 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 01:58:45,311 - INFO - Username filled
+2025-10-04 01:58:45,340 - INFO - Password filled
+2025-10-04 01:58:45,406 - INFO - Login button clicked
+2025-10-04 01:58:45,407 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 01:58:47,286 - INFO - Login successful — Dashboard loaded.
+2025-10-04 01:58:47,550 - INFO - Browser session stopped.
+2025-10-04 02:01:00,840 - INFO - Launching chromium browser (headless=False).
+2025-10-04 02:01:04,306 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 02:01:04,307 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 02:01:04,371 - INFO - Username filled
+2025-10-04 02:01:04,402 - INFO - Password filled
+2025-10-04 02:01:04,470 - INFO - Login button clicked
+2025-10-04 02:01:04,471 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 02:01:06,333 - INFO - Login successful — Dashboard loaded.
+2025-10-04 02:01:06,587 - INFO - Browser session stopped.
+2025-10-04 02:42:02,283 - INFO - Launching chromium browser (headless=False).
+2025-10-04 02:42:04,388 - ERROR - Test failed! Screenshot saved at C:\Users\lakshya757\Desktop\playwright_framework\Utilities\..\screenshots\test_api_login_20251004-024204.png
+2025-10-04 02:42:04,486 - INFO - Screenshot and log info attached to Allure report.
+2025-10-04 02:42:04,782 - INFO - Browser session stopped.
+2025-10-04 02:57:17,667 - ERROR - Response: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.23.4</center>
+</body>
+</html>
+
+2025-10-04 03:05:33,646 - ERROR -  API login failed - Status: 405
+2025-10-04 03:05:33,650 - ERROR - Response: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.23.4</center>
+</body>
+</html>
+
+2025-10-04 03:07:07,775 - INFO -  API login successful
+2025-10-04 03:07:28,147 - INFO -  API login successful
+2025-10-04 03:11:21,590 - INFO - API login successful
+2025-10-04 03:26:52,128 - INFO - API login successful
+2025-10-04 03:36:16,891 - INFO - API login successful
+2025-10-04 03:36:17,872 - INFO - API login successful
+2025-10-04 03:37:17,620 - INFO - API login successful
+2025-10-04 03:37:18,536 - INFO - API login successful
+2025-10-04 03:37:18,623 - ERROR - Failed to fetch user list - Status: 401
+2025-10-04 03:37:18,627 - ERROR - Response: {"detail":"Authentication credentials were not provided."}
+2025-10-04 03:38:51,519 - INFO - API login successful
+2025-10-04 03:38:52,557 - INFO - API login successful
+2025-10-04 03:38:52,699 - ERROR - Failed to fetch user list - Status: 401
+2025-10-04 03:38:52,703 - ERROR - Response: {"detail":"Authentication credentials were not provided."}
+2025-10-04 03:40:27,175 - INFO - API login successful
+2025-10-04 03:40:28,394 - INFO - API login successful
+2025-10-04 03:40:28,463 - ERROR - Failed to fetch user list - Status: 401
+2025-10-04 03:40:28,468 - ERROR - Response: {"detail":"Authentication credentials were not provided."}
+2025-10-04 03:41:14,603 - INFO - API login successful
+2025-10-04 03:41:15,528 - INFO - API login successful
+2025-10-04 03:41:15,711 - ERROR - Failed to fetch user list - Status: 401
+2025-10-04 03:41:15,715 - ERROR - Response: {"detail":"Authentication credentials were not provided."}
+2025-10-04 03:43:48,101 - INFO - API login successful
+2025-10-04 03:43:49,193 - INFO - API login successful
+2025-10-04 03:43:49,262 - ERROR - Failed to fetch user list - Status: 401
+2025-10-04 03:43:49,266 - ERROR - Response: {"detail":"Authentication credentials were not provided."}
+2025-10-04 03:45:29,311 - INFO - API login successful
+2025-10-04 03:45:30,181 - INFO - API login successful
+2025-10-04 03:45:30,249 - ERROR - Failed to fetch user list - Status: 401
+2025-10-04 03:45:30,253 - ERROR - Response: {"detail":"Authorization header must contain two space-delimited values","code":"bad_authorization_header"}
+2025-10-04 03:48:03,276 - INFO - API login successful
+2025-10-04 03:48:04,145 - INFO - API login successful
+2025-10-04 03:48:04,259 - ERROR - Failed to fetch user list - Status: 401
+2025-10-04 03:48:04,264 - ERROR - Response: {"detail":"Authorization header must contain two space-delimited values","code":"bad_authorization_header"}
+2025-10-04 03:50:53,828 - INFO - API login successful
+2025-10-04 03:50:54,680 - INFO - API login successful
+2025-10-04 03:51:42,263 - INFO - API login successful
+2025-10-04 03:51:43,120 - INFO - API login successful
+2025-10-04 03:51:43,125 - ERROR - Token not found in the API response.
+2025-10-04 03:52:40,713 - INFO - API login successful
+2025-10-04 03:52:41,725 - INFO - API login successful
+2025-10-04 03:52:41,729 - ERROR - Token not found in the API response.
+2025-10-04 03:54:56,087 - INFO - API login successful
+2025-10-04 03:54:57,030 - INFO - API login successful
+2025-10-04 03:54:57,035 - ERROR - Token not found in the API response.
+2025-10-04 03:56:32,715 - INFO - API login successful
+2025-10-04 03:56:32,720 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTYzODM5MiwiaWF0IjoxNzU5NTMwMzkyLCJqdGkiOiI3OWIzZDEwMzYyYTM0ZGQ3OGJmZGY1YTU1MzY3NWRlNCIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.QlXF__onOJ0KUuIfNlCjD6RKUHcJtXgJHl4JYH0bIwY', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjE2NzkyLCJpYXQiOjE3NTk1MzAzOTIsImp0aSI6ImNhNmUxYjU0YTEzYjQxYWM5YjBmNjg1MjliOWY2OWU3IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.pmGFK6asR20jQnIGcPMy2SzvgFel6ERQ7VSOCiJ5uG0'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 03:56:34,375 - INFO - API login successful
+2025-10-04 03:56:34,381 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTYzODM5MywiaWF0IjoxNzU5NTMwMzkzLCJqdGkiOiI2NzRmNWFhODJjYTI0MTA3OWZmYzJiY2Y3NTZhZDc0MiIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0._XomrvT2grp-OQdtzqEQfDaCJNVpl2sBUe8qkqLisJc', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjE2NzkzLCJpYXQiOjE3NTk1MzAzOTMsImp0aSI6IjE4NTdkMDg4ODYwYTQzMjE5OGJiZmMzMmEyNDVkMjRkIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.WyvZte6q_BYmNeu4AN2X80rOybGB_rKY4tnyUVSiFqc'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 03:56:34,385 - DEBUG - Token Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTYzODM5MywiaWF0IjoxNzU5NTMwMzkzLCJqdGkiOiI2NzRmNWFhODJjYTI0MTA3OWZmYzJiY2Y3NTZhZDc0MiIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0._XomrvT2grp-OQdtzqEQfDaCJNVpl2sBUe8qkqLisJc', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjE2NzkzLCJpYXQiOjE3NTk1MzAzOTMsImp0aSI6IjE4NTdkMDg4ODYwYTQzMjE5OGJiZmMzMmEyNDVkMjRkIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.WyvZte6q_BYmNeu4AN2X80rOybGB_rKY4tnyUVSiFqc'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 03:56:34,385 - ERROR - Token not found in the API response.
+2025-10-04 03:58:06,335 - INFO - API login successful
+2025-10-04 03:58:06,341 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTYzODQ4NSwiaWF0IjoxNzU5NTMwNDg1LCJqdGkiOiIzYTViZDYwMTliYzA0YTUyOWY1ZTMyODBkZmYyMGQ5ZSIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.dYPmPoND-mBZ4OIKc2nTZMKM-Q4QvXeXJ8FfuWm8p94', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjE2ODg1LCJpYXQiOjE3NTk1MzA0ODUsImp0aSI6ImY5YjY1MzM0NjQwYjQ0YzlhZjNlMTk0NGI3ZmZlMDZmIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ._v4If-9oIRcrsvy-DXiwDCEmBtJeinjQNRFhzF_jTIY'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 03:58:08,205 - INFO - API login successful
+2025-10-04 03:58:08,210 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTYzODQ4NywiaWF0IjoxNzU5NTMwNDg3LCJqdGkiOiJjMTU4MTA3NDM1ZTI0NTY0OTZhZDcyOGIzMTA5ZGFkMiIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.eot6R2TAu17HikdPotP9pFKlVWlguiS3pEjJIPNa01g', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjE2ODg3LCJpYXQiOjE3NTk1MzA0ODcsImp0aSI6Ijg0MzdlN2I3NjAxYzQxMWY5NTQ1MjQxYmVmNGY0Y2NhIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.IMqi4ntUUFfsowzvIebYbDfW6rVCco98A4eqGdKjFeE'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 03:58:08,214 - DEBUG - Token Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTYzODQ4NywiaWF0IjoxNzU5NTMwNDg3LCJqdGkiOiJjMTU4MTA3NDM1ZTI0NTY0OTZhZDcyOGIzMTA5ZGFkMiIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.eot6R2TAu17HikdPotP9pFKlVWlguiS3pEjJIPNa01g', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjE2ODg3LCJpYXQiOjE3NTk1MzA0ODcsImp0aSI6Ijg0MzdlN2I3NjAxYzQxMWY5NTQ1MjQxYmVmNGY0Y2NhIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.IMqi4ntUUFfsowzvIebYbDfW6rVCco98A4eqGdKjFeE'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 03:58:08,214 - DEBUG - Token retrieved: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjE2ODg3LCJpYXQiOjE3NTk1MzA0ODcsImp0aSI6Ijg0MzdlN2I3NjAxYzQxMWY5NTQ1MjQxYmVmNGY0Y2NhIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.IMqi4ntUUFfsowzvIebYbDfW6rVCco98A4eqGdKjFeE
+2025-10-04 03:58:08,214 - DEBUG - Authorization Header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjE2ODg3LCJpYXQiOjE3NTk1MzA0ODcsImp0aSI6Ijg0MzdlN2I3NjAxYzQxMWY5NTQ1MjQxYmVmNGY0Y2NhIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.IMqi4ntUUFfsowzvIebYbDfW6rVCco98A4eqGdKjFeE
+2025-10-04 03:58:08,399 - INFO - User list fetched successfully
+2025-10-04 21:49:19,484 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:49:19,485 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:49:19,535 - INFO - Username filled
+2025-10-04 21:49:19,565 - INFO - Password filled
+2025-10-04 21:49:19,629 - INFO - Login button clicked
+2025-10-04 21:49:19,629 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 21:49:24,839 - ERROR - Login failed or dashboard not visible: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("h2:has-text(\"Dashboard\")") to be visible
+
+2025-10-04 21:50:47,052 - INFO - Launching chromium browser (headless=False).
+2025-10-04 21:50:50,290 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:50:50,290 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:50:50,340 - INFO - Username filled
+2025-10-04 21:50:50,378 - INFO - Password filled
+2025-10-04 21:50:50,442 - INFO - Login button clicked
+2025-10-04 21:50:50,442 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 21:50:53,268 - INFO - Login successful — Dashboard loaded.
+2025-10-04 21:50:53,279 - INFO - Test completed successfully.
+2025-10-04 21:50:53,580 - INFO - Browser session stopped.
+2025-10-04 21:55:27,558 - INFO - Launching chromium browser (headless=False).
+2025-10-04 21:55:30,345 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:55:30,345 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:55:30,398 - INFO - Username filled
+2025-10-04 21:55:30,425 - INFO - Password filled
+2025-10-04 21:55:30,499 - INFO - Login button clicked
+2025-10-04 21:55:30,499 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 21:55:31,868 - INFO - Login successful — Dashboard loaded.
+2025-10-04 21:55:31,877 - INFO - Test completed successfully.
+2025-10-04 21:55:32,176 - INFO - Browser session stopped.
+2025-10-04 21:58:23,093 - INFO - Launching chromium browser (headless=False).
+2025-10-04 21:58:25,596 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:58:25,596 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:58:25,656 - INFO - Username filled
+2025-10-04 21:58:25,692 - INFO - Password filled
+2025-10-04 21:58:25,783 - INFO - Login button clicked
+2025-10-04 21:58:25,783 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 21:58:27,174 - INFO - Login successful — Dashboard loaded.
+2025-10-04 21:58:27,182 - INFO - Test completed successfully.
+2025-10-04 21:58:27,458 - INFO - Browser session stopped.
+2025-10-04 21:58:27,462 - INFO - Launching chromium browser (headless=False).
+2025-10-04 21:58:30,901 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:58:30,901 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 21:58:30,979 - INFO - Username filled
+2025-10-04 21:58:31,023 - INFO - Password filled
+2025-10-04 21:58:31,157 - INFO - Login button clicked
+2025-10-04 21:58:31,157 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 21:58:36,346 - ERROR - Login failed or dashboard not visible: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("h2:has-text(\"Dashboard\")") to be visible
+
+2025-10-04 21:58:37,021 - INFO - Browser session stopped.

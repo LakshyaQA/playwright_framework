@@ -1,4 +1,7 @@
 from playwright.sync_api import sync_playwright
+from pytest_playwright.pytest_playwright import new_context
+
+
 # from pytest_playwright.pytest_playwright import playwright
 
 

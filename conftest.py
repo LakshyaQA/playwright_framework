@@ -4,8 +4,6 @@ from Utilities.screenshot import capture_screenshot
 from Base.playwright_factory import PlaywrightFactory
 from Utilities.logger import get_logger
 
-logger = get_logger()
-
 
 # ------------------ Pytest CLI Options ------------------
 def pytest_addoption(parser):
@@ -19,13 +17,14 @@ def pytest_addoption(parser):
 
 # ------------------ Browser Fixture ------------------
 @pytest.fixture(scope="function")
-def browser_page(request):
+def browser_page(request, logger):
     browser_name = request.config.getoption("--mybrowser")
     headless = request.config.getoption("--headless")
     fullscreen = request.config.getoption("--fullscreen")
 
     args = ["--start-fullscreen"] if fullscreen else []
     factory = PlaywrightFactory(browser_name=browser_name, headless=headless, args=args)
+
     logger.info(f"Launching {browser_name} browser (headless={headless}).")
 
     page = factory.start_browser()
@@ -62,3 +61,9 @@ def pytest_runtest_makereport(item, call):
                 attachment_type=allure.attachment_type.TEXT
             )
             logger.info("Screenshot and log info attached to Allure report.")
+
+
+# Define the logger fixture
+@pytest.fixture(scope="session")
+def logger():
+    return get_logger()

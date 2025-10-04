@@ -373,9 +373,47 @@ for i in range(titles.count()):
     print(await titles.nth(i).inner_text())
 
 
+we nned to click and assert or print  atext from new opened page
+we will use expect_popup() method
+Event method like with page.expect_popup() know as closer to handle new tab or window
+with page.expect_popup() as popup_info:
+as popup_info: - collecting that popu p infor in element
 
 
+new_page = popup_info.value - new_page will be child page where we can perform action as new page
+new_page.wait_for_load_state()
+new_page.goto("https://example.com")
 
+# Wait for the new page to load
+new_page.wait_for_load_state()
 
+store text content in variable
+text_content = page.locator('selector').text_content()
 
+assert aactual and expected
+assert text_content == "Expected Text" core pytest assertation
+
+,split"" ,.strip() ,replace(" ","") - to remove space
+
+get_by_placeholder("Search recipes...").fill("apple")
+
+handel alert by trigriing java script event
+lambda help to write anaonamys function
+page.on("dialog", lambda dialog: dialog.accept()) type of event like dialog box,
+how to handel it that need to be delacalered like dialog.accept() or dismiss()
+
+Handel frames
+frae are another html code embedded in main html page
+frame = page.frame(name="frame_name") or by url or by locator
+frame = page.frame(url="frame_url")
+frame = page.frame_locator("iframe_selector")
+frame.locator("selector_inside_frame").click()
+
+handel Web tables
+
+hover using .hover()
+page.locator("selector").hover()
+
+Playwright codegen
+playwright codegen https://example.com
 
