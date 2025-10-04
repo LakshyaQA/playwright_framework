@@ -417,3 +417,14 @@ page.locator("selector").hover()
 Playwright codegen
 playwright codegen https://example.com
 
+pytest-xdist to run parallel test pip install pytest-xdist
+pytest -n 3  # Run tests in parallel using 3 CPU cores or pytest -n auto to auto detect
+
+smoke tag and use pytest -m smoke to run only smoke tests
+
+installing pytest-html
+pip install pytest-html
+pytest --html=report.html --self-contained-html
+pytest -n auto --html=report.html --self-contained-html
+--self-contained-html to embed CSS in HTML file
+
