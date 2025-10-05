@@ -359,3 +359,327 @@ Call log:
 2025-10-04 22:30:01,071 - INFO - Browser session stopped.
 2025-10-04 22:30:01,078 - INFO - Browser session stopped.
 2025-10-04 22:30:07,930 - INFO - Browser session stopped.
+2025-10-04 22:35:40,375 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:35:40,379 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:35:40,379 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:35:43,009 - INFO - Opening CarDekho website...
+2025-10-04 22:35:44,018 - INFO - API login successful
+2025-10-04 22:35:44,021 - INFO - API login successful
+2025-10-04 22:35:44,031 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTU0NCwiaWF0IjoxNzU5NTk3NTQ0LCJqdGkiOiJkMzYzNGE2NTkwNGI0NWQyOTc3ZDQyMTM0MTcwMjg5NiIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.Xd_9jLoSQb3kKmOyDakvkBdTDTVan48tIL9j2PM7vNs', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjgzOTQ0LCJpYXQiOjE3NTk1OTc1NDQsImp0aSI6Ijc1NzA1NzMwNGM4YjQyZWViZTNmYWY1Y2FiOTkxOWQyIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.WvVghkxe5PblCw9hrO2KlE5WioqyTPIBtoRYojK-rQU'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:35:44,036 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTU0NCwiaWF0IjoxNzU5NTk3NTQ0LCJqdGkiOiI2Y2Y1MjM3MWY1NzM0NGM3OWI0MzM4OTE3MDNhOWJlMCIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.aNDa1WsukT26ZTIXGEiac6fYIXN4W9NbxwvyOZuq4I0', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjgzOTQ0LCJpYXQiOjE3NTk1OTc1NDQsImp0aSI6IjNkMjUxMzVmZTAwNTRlMzZhZTI0NzhiYTdkMWI2YzE5IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.M5XYCP3WICUpKErcc60reid2T0x4FtsxpdJKT7e7TmY'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:35:44,041 - DEBUG - Token Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTU0NCwiaWF0IjoxNzU5NTk3NTQ0LCJqdGkiOiJkMzYzNGE2NTkwNGI0NWQyOTc3ZDQyMTM0MTcwMjg5NiIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.Xd_9jLoSQb3kKmOyDakvkBdTDTVan48tIL9j2PM7vNs', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjgzOTQ0LCJpYXQiOjE3NTk1OTc1NDQsImp0aSI6Ijc1NzA1NzMwNGM4YjQyZWViZTNmYWY1Y2FiOTkxOWQyIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.WvVghkxe5PblCw9hrO2KlE5WioqyTPIBtoRYojK-rQU'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:35:44,041 - DEBUG - Token retrieved: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjgzOTQ0LCJpYXQiOjE3NTk1OTc1NDQsImp0aSI6Ijc1NzA1NzMwNGM4YjQyZWViZTNmYWY1Y2FiOTkxOWQyIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.WvVghkxe5PblCw9hrO2KlE5WioqyTPIBtoRYojK-rQU
+2025-10-04 22:35:44,041 - DEBUG - Authorization Header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjgzOTQ0LCJpYXQiOjE3NTk1OTc1NDQsImp0aSI6Ijc1NzA1NzMwNGM4YjQyZWViZTNmYWY1Y2FiOTkxOWQyIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.WvVghkxe5PblCw9hrO2KlE5WioqyTPIBtoRYojK-rQU
+2025-10-04 22:35:44,178 - INFO - Searching for 'Thar'...
+2025-10-04 22:35:44,235 - INFO - User list fetched successfully
+2025-10-04 22:35:44,264 - INFO - Waiting for results...
+2025-10-04 22:35:44,809 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:35:44,809 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:35:44,902 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:35:44,902 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:35:44,987 - INFO - Username filled
+2025-10-04 22:35:45,061 - INFO - Username filled
+2025-10-04 22:35:45,079 - INFO - Password filled
+2025-10-04 22:35:45,145 - INFO - Password filled
+2025-10-04 22:35:45,280 - INFO - Login button clicked
+2025-10-04 22:35:45,280 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:35:45,303 - INFO - Login button clicked
+2025-10-04 22:35:45,304 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:35:45,623 - INFO - Thar vehicle found successfully!
+2025-10-04 22:35:46,252 - INFO - Browser session stopped.
+2025-10-04 22:35:47,815 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:35:47,827 - INFO - Test completed successfully.
+2025-10-04 22:35:47,833 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:35:47,852 - INFO - Test completed successfully.
+2025-10-04 22:35:48,300 - INFO - Browser session stopped.
+2025-10-04 22:35:48,396 - INFO - Browser session stopped.
+2025-10-04 22:35:55,718 - INFO - Browser session stopped.
+2025-10-04 22:38:07,033 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:38:07,034 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:38:07,038 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:38:07,038 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:38:08,933 - INFO - Opening CarDekho website...
+2025-10-04 22:38:10,166 - INFO - Searching for 'Thar'...
+2025-10-04 22:38:10,232 - INFO - API login successful
+2025-10-04 22:38:10,285 - INFO - API login successful
+2025-10-04 22:38:10,334 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTY5MCwiaWF0IjoxNzU5NTk3NjkwLCJqdGkiOiI0NTIwNDZhYzRjMjA0OGUyYmU1ZmZlYzdiY2M2NjAwOCIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.ZW2hZB5AfcgvxFtTqBy5xwdZDCTde-uy8X0AzUAStAY', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MDkwLCJpYXQiOjE3NTk1OTc2OTAsImp0aSI6ImUyYmY5MzE4ZDY0NTRjMDU4NTkxNDQyMzI2YjYwMGIxIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.Qv1r5WlTrCOtHD8uNNk7XzODaXt9mxEubLJEoDMd03o'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:38:10,335 - INFO - Waiting for results...
+2025-10-04 22:38:10,350 - DEBUG - Token Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTY5MCwiaWF0IjoxNzU5NTk3NjkwLCJqdGkiOiI0NTIwNDZhYzRjMjA0OGUyYmU1ZmZlYzdiY2M2NjAwOCIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.ZW2hZB5AfcgvxFtTqBy5xwdZDCTde-uy8X0AzUAStAY', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MDkwLCJpYXQiOjE3NTk1OTc2OTAsImp0aSI6ImUyYmY5MzE4ZDY0NTRjMDU4NTkxNDQyMzI2YjYwMGIxIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.Qv1r5WlTrCOtHD8uNNk7XzODaXt9mxEubLJEoDMd03o'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:38:10,350 - DEBUG - Token retrieved: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MDkwLCJpYXQiOjE3NTk1OTc2OTAsImp0aSI6ImUyYmY5MzE4ZDY0NTRjMDU4NTkxNDQyMzI2YjYwMGIxIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.Qv1r5WlTrCOtHD8uNNk7XzODaXt9mxEubLJEoDMd03o
+2025-10-04 22:38:10,350 - DEBUG - Authorization Header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MDkwLCJpYXQiOjE3NTk1OTc2OTAsImp0aSI6ImUyYmY5MzE4ZDY0NTRjMDU4NTkxNDQyMzI2YjYwMGIxIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.Qv1r5WlTrCOtHD8uNNk7XzODaXt9mxEubLJEoDMd03o
+2025-10-04 22:38:10,352 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTY5MCwiaWF0IjoxNzU5NTk3NjkwLCJqdGkiOiJkYTA3MDRmYTFjYzc0MzAwOTY1ZTU4NDE2NWUxN2E3ZSIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.-Hq9bFx_KCI_apLlFhkcRpio3ocQVMHPkKZknCAjVbE', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MDkwLCJpYXQiOjE3NTk1OTc2OTAsImp0aSI6ImNlYzQ3ZDc2YzAzMTQxNzBiOTUzZWRmMDRjZDk1OGUyIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.4LmdiEA2uNjIYpakeA6v9CnXemQFI7aIT32m3UbQFq0'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:38:10,560 - INFO - User list fetched successfully
+2025-10-04 22:38:11,854 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:38:11,854 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:38:11,967 - INFO - Username filled
+2025-10-04 22:38:12,064 - INFO - Password filled
+2025-10-04 22:38:12,309 - INFO - Login button clicked
+2025-10-04 22:38:12,309 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:38:12,412 - INFO - Thar vehicle found successfully!
+2025-10-04 22:38:13,072 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:38:13,072 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:38:13,175 - INFO - Username filled
+2025-10-04 22:38:13,245 - INFO - Password filled
+2025-10-04 22:38:13,370 - INFO - Login button clicked
+2025-10-04 22:38:13,370 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:38:13,621 - INFO - Browser session stopped.
+2025-10-04 22:38:13,838 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:38:13,854 - INFO - Test completed successfully.
+2025-10-04 22:38:14,241 - INFO - Browser session stopped.
+2025-10-04 22:38:14,769 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:38:14,782 - INFO - Test completed successfully.
+2025-10-04 22:38:15,082 - INFO - Browser session stopped.
+2025-10-04 22:38:22,157 - INFO - Browser session stopped.
+2025-10-04 22:39:40,025 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:39:40,025 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:39:40,028 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:39:42,043 - INFO - Opening CarDekho website...
+2025-10-04 22:39:43,365 - INFO - Searching for 'Thar'...
+2025-10-04 22:39:43,381 - INFO - API login successful
+2025-10-04 22:39:43,393 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTc4MywiaWF0IjoxNzU5NTk3NzgzLCJqdGkiOiIyZDdhMWRjYzdhNGQ0NGYzOTYyNjVkOTc0N2ZiNGM5YSIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.MGQCOOnax95cJp1WD0ZgMetyPuh5-en1abWinOKk5yU', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MTgzLCJpYXQiOjE3NTk1OTc3ODMsImp0aSI6IjRlYjIwOTc3MmM0YTRlYzc4YTI4YmE1OGE2M2NkNDdmIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.gfqpY_L0X9Vef63wp0_My7dKGNkFvoboJXmekJV2UB8'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:39:43,430 - INFO - API login successful
+2025-10-04 22:39:43,446 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTc4MywiaWF0IjoxNzU5NTk3NzgzLCJqdGkiOiJmZTQxZDY0ODcxMTg0NGI5ODcyOTA4NzMxNjFmMjY0MyIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.lDgRLoMCBsD38NYlAItDkHB9jl9gZXQqbeaUPSn8bAo', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MTgzLCJpYXQiOjE3NTk1OTc3ODMsImp0aSI6IjkzNzA3YzIzMWJlZjQ1MmQ5ZTI3MjhiNmFiZGZjYmY3IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.3vK9kd3HXI31OGzAnHahdIkO1z9yCpj-4AOvG1zJhZE'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:39:43,461 - DEBUG - Token Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTc4MywiaWF0IjoxNzU5NTk3NzgzLCJqdGkiOiJmZTQxZDY0ODcxMTg0NGI5ODcyOTA4NzMxNjFmMjY0MyIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.lDgRLoMCBsD38NYlAItDkHB9jl9gZXQqbeaUPSn8bAo', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MTgzLCJpYXQiOjE3NTk1OTc3ODMsImp0aSI6IjkzNzA3YzIzMWJlZjQ1MmQ5ZTI3MjhiNmFiZGZjYmY3IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.3vK9kd3HXI31OGzAnHahdIkO1z9yCpj-4AOvG1zJhZE'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:39:43,461 - DEBUG - Token retrieved: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MTgzLCJpYXQiOjE3NTk1OTc3ODMsImp0aSI6IjkzNzA3YzIzMWJlZjQ1MmQ5ZTI3MjhiNmFiZGZjYmY3IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.3vK9kd3HXI31OGzAnHahdIkO1z9yCpj-4AOvG1zJhZE
+2025-10-04 22:39:43,461 - DEBUG - Authorization Header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MTgzLCJpYXQiOjE3NTk1OTc3ODMsImp0aSI6IjkzNzA3YzIzMWJlZjQ1MmQ5ZTI3MjhiNmFiZGZjYmY3IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.3vK9kd3HXI31OGzAnHahdIkO1z9yCpj-4AOvG1zJhZE
+2025-10-04 22:39:43,513 - INFO - Waiting for results...
+2025-10-04 22:39:43,640 - INFO - User list fetched successfully
+2025-10-04 22:39:45,064 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:39:45,064 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:39:45,163 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:39:45,164 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:39:45,205 - INFO - Username filled
+2025-10-04 22:39:45,285 - INFO - Password filled
+2025-10-04 22:39:45,385 - INFO - Username filled
+2025-10-04 22:39:45,457 - INFO - Password filled
+2025-10-04 22:39:45,491 - INFO - Login button clicked
+2025-10-04 22:39:45,492 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:39:45,630 - INFO - Login button clicked
+2025-10-04 22:39:45,630 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:39:46,387 - INFO - Thar vehicle found successfully!
+2025-10-04 22:39:47,647 - INFO - Browser session stopped.
+2025-10-04 22:39:47,932 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:39:47,981 - INFO - Test completed successfully.
+2025-10-04 22:39:48,088 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:39:48,104 - INFO - Test completed successfully.
+2025-10-04 22:39:48,589 - INFO - Browser session stopped.
+2025-10-04 22:39:48,766 - INFO - Browser session stopped.
+2025-10-04 22:39:55,589 - INFO - Browser session stopped.
+2025-10-04 22:42:03,637 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:42:15,482 - INFO - Browser session stopped.
+2025-10-04 22:42:17,669 - INFO - API login successful
+2025-10-04 22:42:17,674 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTkzNywiaWF0IjoxNzU5NTk3OTM3LCJqdGkiOiJmZmMxMTkyZDBkZjk0MDUwYWJjOTk0OTQzNDhjZjI0NSIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.dTUvWhzpAf-lrbL3X7tAPdC-Zn9koEAiu7cXnmk57Mo', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MzM3LCJpYXQiOjE3NTk1OTc5MzcsImp0aSI6ImY5MWZkMWU1ZDIyMzRiMzZhYmJjYjU2NjAzODc5MzU5IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.XKMRNjNHVR0IfDkJfhOcq06-wguNYWC_yvPsyXDwLTg'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:42:19,289 - INFO - API login successful
+2025-10-04 22:42:19,297 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTkzOSwiaWF0IjoxNzU5NTk3OTM5LCJqdGkiOiI0MmM4ZmY2OGM3YzM0YWQ3YjIwNzA3YmQ3YmU4ZTYwMSIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.tqVSp2-k2vAgDPmqScabb76es_bK6Twxoy9Yt0KHCNE', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MzM5LCJpYXQiOjE3NTk1OTc5MzksImp0aSI6IjZhOTNlZGY5Mjg0MzQyMTRhNGY1Y2YyNWRlMzc4MTk3IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.oyFzTMsXe5QyfDYk9W5lfaDhhnnmoSa8wqG7SNDiRnY'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:42:19,303 - DEBUG - Token Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNTkzOSwiaWF0IjoxNzU5NTk3OTM5LCJqdGkiOiI0MmM4ZmY2OGM3YzM0YWQ3YjIwNzA3YmQ3YmU4ZTYwMSIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.tqVSp2-k2vAgDPmqScabb76es_bK6Twxoy9Yt0KHCNE', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MzM5LCJpYXQiOjE3NTk1OTc5MzksImp0aSI6IjZhOTNlZGY5Mjg0MzQyMTRhNGY1Y2YyNWRlMzc4MTk3IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.oyFzTMsXe5QyfDYk9W5lfaDhhnnmoSa8wqG7SNDiRnY'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:42:19,303 - DEBUG - Token retrieved: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MzM5LCJpYXQiOjE3NTk1OTc5MzksImp0aSI6IjZhOTNlZGY5Mjg0MzQyMTRhNGY1Y2YyNWRlMzc4MTk3IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.oyFzTMsXe5QyfDYk9W5lfaDhhnnmoSa8wqG7SNDiRnY
+2025-10-04 22:42:19,303 - DEBUG - Authorization Header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg0MzM5LCJpYXQiOjE3NTk1OTc5MzksImp0aSI6IjZhOTNlZGY5Mjg0MzQyMTRhNGY1Y2YyNWRlMzc4MTk3IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.oyFzTMsXe5QyfDYk9W5lfaDhhnnmoSa8wqG7SNDiRnY
+2025-10-04 22:42:19,490 - INFO - User list fetched successfully
+2025-10-04 22:42:19,515 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:42:25,114 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:42:25,114 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:42:25,186 - INFO - Username filled
+2025-10-04 22:42:25,222 - INFO - Password filled
+2025-10-04 22:42:25,324 - INFO - Login button clicked
+2025-10-04 22:42:25,324 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:42:26,758 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:42:26,769 - INFO - Test completed successfully.
+2025-10-04 22:42:27,087 - INFO - Browser session stopped.
+2025-10-04 22:42:27,091 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:42:32,009 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:42:32,009 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:42:32,065 - INFO - Username filled
+2025-10-04 22:42:32,099 - INFO - Password filled
+2025-10-04 22:42:32,185 - INFO - Login button clicked
+2025-10-04 22:42:32,185 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:42:33,545 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:42:33,554 - INFO - Test completed successfully.
+2025-10-04 22:42:33,849 - INFO - Browser session stopped.
+2025-10-04 22:42:33,854 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:42:35,369 - INFO - Opening CarDekho website...
+2025-10-04 22:42:36,059 - INFO - Searching for 'Thar'...
+2025-10-04 22:42:36,120 - INFO - Waiting for results...
+2025-10-04 22:42:37,804 - INFO - Thar vehicle found successfully!
+2025-10-04 22:42:39,234 - INFO - Browser session stopped.
+2025-10-04 22:47:31,718 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:49:10,273 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:49:13,183 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:49:13,184 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:49:13,234 - INFO - Username filled
+2025-10-04 22:49:13,271 - INFO - Password filled
+2025-10-04 22:49:13,361 - INFO - Login button clicked
+2025-10-04 22:49:13,361 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:49:15,219 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:49:15,225 - INFO - Test completed successfully.
+2025-10-04 22:49:15,497 - INFO - Browser session stopped.
+2025-10-04 22:49:15,502 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:49:19,507 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:49:19,508 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 22:49:19,567 - INFO - Username filled
+2025-10-04 22:49:19,603 - INFO - Password filled
+2025-10-04 22:49:19,679 - INFO - Login button clicked
+2025-10-04 22:49:19,679 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 22:49:21,089 - INFO - Login successful — Dashboard loaded.
+2025-10-04 22:49:21,099 - INFO - Test completed successfully.
+2025-10-04 22:49:21,392 - INFO - Browser session stopped.
+2025-10-04 22:52:31,611 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:52:33,678 - INFO - Browser session stopped.
+2025-10-04 22:52:40,351 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:52:42,128 - INFO - Browser session stopped.
+2025-10-04 22:55:55,365 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:56:07,458 - INFO - Browser session stopped.
+2025-10-04 22:56:10,450 - INFO - API login successful
+2025-10-04 22:56:10,454 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNjc3MCwiaWF0IjoxNzU5NTk4NzcwLCJqdGkiOiJkY2VkMzg5YjkxNGI0MDllYWQ5ZjYzZTgzYTJlOWU0OCIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.6RF-OhJm0GkrZTb70MCn36DeLbYIOCOIDc1MFLPmvhE', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg1MTcwLCJpYXQiOjE3NTk1OTg3NzAsImp0aSI6ImU2ZTU4MzAzMDk1YTQxMWNiOGRlYzkyM2VkMWY2NDZiIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.ckVF4M4Z2NA3K2ZIXdPvMohbz2VoAjUK1EgrkqdDst4'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:56:12,160 - INFO - API login successful
+2025-10-04 22:56:12,164 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNjc3MiwiaWF0IjoxNzU5NTk4NzcyLCJqdGkiOiI1NWQ4YWViMGJkODg0M2RjODg2NDg5MGNhMGFmMmIzOCIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.RFkiezW08CVzUKIZjttbpYcSQIiromuGlrAbGxc4rjU', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg1MTcyLCJpYXQiOjE3NTk1OTg3NzIsImp0aSI6ImFlZDJhNThiNjlhNzQ3MDJiMjRjOTI0YTE1YjI1NDkyIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.in65VFtnw-gwgDJiv-bvK0sefOfkutmJvb1SeqoDfZo'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:56:12,168 - DEBUG - Token Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcwNjc3MiwiaWF0IjoxNzU5NTk4NzcyLCJqdGkiOiI1NWQ4YWViMGJkODg0M2RjODg2NDg5MGNhMGFmMmIzOCIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.RFkiezW08CVzUKIZjttbpYcSQIiromuGlrAbGxc4rjU', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg1MTcyLCJpYXQiOjE3NTk1OTg3NzIsImp0aSI6ImFlZDJhNThiNjlhNzQ3MDJiMjRjOTI0YTE1YjI1NDkyIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.in65VFtnw-gwgDJiv-bvK0sefOfkutmJvb1SeqoDfZo'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-04 22:56:12,169 - DEBUG - Token retrieved: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg1MTcyLCJpYXQiOjE3NTk1OTg3NzIsImp0aSI6ImFlZDJhNThiNjlhNzQ3MDJiMjRjOTI0YTE1YjI1NDkyIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.in65VFtnw-gwgDJiv-bvK0sefOfkutmJvb1SeqoDfZo
+2025-10-04 22:56:12,169 - DEBUG - Authorization Header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5Njg1MTcyLCJpYXQiOjE3NTk1OTg3NzIsImp0aSI6ImFlZDJhNThiNjlhNzQ3MDJiMjRjOTI0YTE1YjI1NDkyIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.in65VFtnw-gwgDJiv-bvK0sefOfkutmJvb1SeqoDfZo
+2025-10-04 22:56:12,500 - INFO - User list fetched successfully
+2025-10-04 22:56:12,520 - INFO - Launching chromium browser (headless=False).
+2025-10-04 22:56:14,685 - INFO - Browser session stopped.
+2025-10-04 23:01:58,104 - INFO - Launching chromium browser (headless=False).
+2025-10-04 23:02:00,058 - INFO - Browser session stopped.
+2025-10-04 23:02:17,889 - INFO - Launching chromium browser (headless=False).
+2025-10-04 23:02:19,672 - INFO - Browser session stopped.
+2025-10-04 23:02:37,973 - INFO - Launching chromium browser (headless=False).
+2025-10-04 23:02:46,142 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 23:02:46,143 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 23:02:46,195 - INFO - Username filled
+2025-10-04 23:02:46,221 - INFO - Password filled
+2025-10-04 23:02:46,293 - INFO - Login button clicked
+2025-10-04 23:02:46,293 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 23:02:47,659 - INFO - Login successful — Dashboard loaded.
+2025-10-04 23:02:47,677 - INFO - Test completed successfully.
+2025-10-04 23:02:47,965 - INFO - Browser session stopped.
+2025-10-04 23:02:47,969 - INFO - Launching chromium browser (headless=False).
+2025-10-04 23:02:53,099 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 23:02:53,099 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-04 23:02:53,154 - INFO - Username filled
+2025-10-04 23:02:53,181 - INFO - Password filled
+2025-10-04 23:02:53,240 - INFO - Login button clicked
+2025-10-04 23:02:53,240 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-04 23:02:55,114 - INFO - Login successful — Dashboard loaded.
+2025-10-04 23:02:55,123 - INFO - Test completed successfully.
+2025-10-04 23:02:55,402 - INFO - Browser session stopped.
+2025-10-05 00:16:58,032 - INFO - Launching chromium browser (headless=False).
+2025-10-05 00:17:02,836 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:17:02,836 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:17:02,909 - INFO - Username filled
+2025-10-05 00:17:02,947 - INFO - Password filled
+2025-10-05 00:17:03,675 - INFO - Browser session stopped.
+2025-10-05 00:25:15,631 - INFO - Launching chromium browser (headless=False).
+2025-10-05 00:25:40,398 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:25:48,735 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:25:48,736 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:25:48,811 - INFO - Username filled
+2025-10-05 00:25:48,838 - INFO - Password filled
+2025-10-05 00:25:48,923 - INFO - Login button clicked
+2025-10-05 00:25:48,923 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-05 00:25:50,801 - INFO - Login successful — Dashboard loaded.
+2025-10-05 00:25:50,809 - INFO - Test completed successfully.
+2025-10-05 00:25:51,470 - INFO - Browser session stopped.
+2025-10-05 00:25:51,475 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:25:56,050 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:25:56,051 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:25:56,101 - INFO - Username filled
+2025-10-05 00:25:56,126 - INFO - Password filled
+2025-10-05 00:25:56,191 - INFO - Login button clicked
+2025-10-05 00:25:56,191 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-05 00:25:58,059 - INFO - Login successful — Dashboard loaded.
+2025-10-05 00:25:58,066 - INFO - Test completed successfully.
+2025-10-05 00:25:58,774 - INFO - Browser session stopped.
+2025-10-05 00:29:03,008 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:29:03,019 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:29:07,183 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:29:07,184 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:29:07,236 - INFO - Username filled
+2025-10-05 00:29:07,262 - INFO - Password filled
+2025-10-05 00:29:07,333 - INFO - Login button clicked
+2025-10-05 00:29:07,334 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-05 00:29:08,207 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:29:08,207 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:29:08,263 - INFO - Username filled
+2025-10-05 00:29:08,287 - INFO - Password filled
+2025-10-05 00:29:08,350 - INFO - Login button clicked
+2025-10-05 00:29:08,351 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-05 00:29:08,713 - INFO - Login successful — Dashboard loaded.
+2025-10-05 00:29:08,720 - INFO - Test completed successfully.
+2025-10-05 00:29:09,408 - INFO - Browser session stopped.
+2025-10-05 00:29:09,714 - INFO - Login successful — Dashboard loaded.
+2025-10-05 00:29:09,721 - INFO - Test completed successfully.
+2025-10-05 00:29:09,821 - INFO - Browser session stopped.
+2025-10-05 00:29:35,575 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:29:35,575 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:29:35,579 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:29:35,579 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:29:37,710 - INFO - Opening CarDekho website...
+2025-10-05 00:29:38,329 - INFO - Searching for 'Thar'...
+2025-10-05 00:29:38,359 - INFO - Waiting for results...
+2025-10-05 00:29:38,993 - INFO - API login successful
+2025-10-05 00:29:39,003 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcxMjM3OCwiaWF0IjoxNzU5NjA0Mzc4LCJqdGkiOiI2OTE2NTNiNGU5ZGE0MGY5OWRiYmI1MTkyYjM1Yzg5YiIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.SWFdpknZ-yeb_OimpJ4FpoaB9pIHoxyBX6LuFSocv1w', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkwNzc4LCJpYXQiOjE3NTk2MDQzNzgsImp0aSI6IjJhYmM4YmRkMTI0NjQzYzVhYzU3ZWI5ODMzNDBiNzcwIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.bgSV3XOvDvYuqtU83_q0Skw9i4H7aOowazsrb6m6zN0'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-05 00:29:39,108 - INFO - API login successful
+2025-10-05 00:29:39,119 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcxMjM3OSwiaWF0IjoxNzU5NjA0Mzc5LCJqdGkiOiI1OGU0MDUwNGYwODg0M2YxOGNkZmI4OWJhNjZmYzYwNiIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.b-SjJaFO0TE8cemm2LrtvwvmM3rxRVNg3QVw0-Nfnvo', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkwNzc5LCJpYXQiOjE3NTk2MDQzNzksImp0aSI6IjhmMjkwMDE2YzMyZTQ5MWY4M2RiNGNjNDQ3ZTJlNWJiIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.A8ivMBom_0GhlQvVxcfWu7-1IEwgftWNWzDcVlxxihA'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-05 00:29:39,129 - DEBUG - Token Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcxMjM3OSwiaWF0IjoxNzU5NjA0Mzc5LCJqdGkiOiI1OGU0MDUwNGYwODg0M2YxOGNkZmI4OWJhNjZmYzYwNiIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.b-SjJaFO0TE8cemm2LrtvwvmM3rxRVNg3QVw0-Nfnvo', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkwNzc5LCJpYXQiOjE3NTk2MDQzNzksImp0aSI6IjhmMjkwMDE2YzMyZTQ5MWY4M2RiNGNjNDQ3ZTJlNWJiIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.A8ivMBom_0GhlQvVxcfWu7-1IEwgftWNWzDcVlxxihA'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-05 00:29:39,130 - DEBUG - Token retrieved: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkwNzc5LCJpYXQiOjE3NTk2MDQzNzksImp0aSI6IjhmMjkwMDE2YzMyZTQ5MWY4M2RiNGNjNDQ3ZTJlNWJiIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.A8ivMBom_0GhlQvVxcfWu7-1IEwgftWNWzDcVlxxihA
+2025-10-05 00:29:39,131 - DEBUG - Authorization Header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkwNzc5LCJpYXQiOjE3NTk2MDQzNzksImp0aSI6IjhmMjkwMDE2YzMyZTQ5MWY4M2RiNGNjNDQ3ZTJlNWJiIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.A8ivMBom_0GhlQvVxcfWu7-1IEwgftWNWzDcVlxxihA
+2025-10-05 00:29:39,382 - INFO - User list fetched successfully
+2025-10-05 00:29:39,578 - INFO - Thar vehicle found successfully!
+2025-10-05 00:29:41,625 - INFO - Browser session stopped.
+2025-10-05 00:29:42,145 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:29:42,146 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:29:42,304 - INFO - Username filled
+2025-10-05 00:29:42,375 - INFO - Password filled
+2025-10-05 00:29:42,495 - INFO - Login button clicked
+2025-10-05 00:29:42,495 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-05 00:29:44,077 - INFO - Login successful — Dashboard loaded.
+2025-10-05 00:29:44,101 - INFO - Test completed successfully.
+2025-10-05 00:29:44,694 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:29:44,695 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:29:44,759 - INFO - Username filled
+2025-10-05 00:29:44,807 - INFO - Password filled
+2025-10-05 00:29:44,892 - INFO - Login button clicked
+2025-10-05 00:29:44,892 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-05 00:29:44,986 - INFO - Browser session stopped.
+2025-10-05 00:29:46,775 - INFO - Login successful — Dashboard loaded.
+2025-10-05 00:29:46,782 - INFO - Test completed successfully.
+2025-10-05 00:29:47,082 - INFO - Browser session stopped.
+2025-10-05 00:30:12,756 - INFO - Browser session stopped.
+2025-10-05 00:33:30,203 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:33:30,204 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:33:30,206 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:33:30,208 - INFO - Launching chromium browser (headless=True).
+2025-10-05 00:33:32,524 - INFO - Opening CarDekho website...
+2025-10-05 00:33:33,122 - INFO - Searching for 'Thar'...
+2025-10-05 00:33:33,148 - INFO - Waiting for results...
+2025-10-05 00:33:33,791 - INFO - API login successful
+2025-10-05 00:33:33,797 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcxMjYxMywiaWF0IjoxNzU5NjA0NjEzLCJqdGkiOiIzMzNmNDhlZmIyZjA0ODUzOTZkYzA0MzE5ODdhNTk5MCIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.vJ8bvM8dbjpmBUIZ8Ch72y9Q_i0l9Fo98adbBHTYD_A', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkxMDEzLCJpYXQiOjE3NTk2MDQ2MTMsImp0aSI6IjA0MDE4N2YyNTRjZjQ0N2E4NjU5YmYzNmY2OWRkZDExIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.LR5z6fqEuZaA5CqoVlumuOG1uOnuT-rcZMfoTMTHPHs'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-05 00:33:33,803 - DEBUG - Token Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcxMjYxMywiaWF0IjoxNzU5NjA0NjEzLCJqdGkiOiIzMzNmNDhlZmIyZjA0ODUzOTZkYzA0MzE5ODdhNTk5MCIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.vJ8bvM8dbjpmBUIZ8Ch72y9Q_i0l9Fo98adbBHTYD_A', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkxMDEzLCJpYXQiOjE3NTk2MDQ2MTMsImp0aSI6IjA0MDE4N2YyNTRjZjQ0N2E4NjU5YmYzNmY2OWRkZDExIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.LR5z6fqEuZaA5CqoVlumuOG1uOnuT-rcZMfoTMTHPHs'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-05 00:33:33,803 - DEBUG - Token retrieved: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkxMDEzLCJpYXQiOjE3NTk2MDQ2MTMsImp0aSI6IjA0MDE4N2YyNTRjZjQ0N2E4NjU5YmYzNmY2OWRkZDExIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.LR5z6fqEuZaA5CqoVlumuOG1uOnuT-rcZMfoTMTHPHs
+2025-10-05 00:33:33,803 - DEBUG - Authorization Header: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkxMDEzLCJpYXQiOjE3NTk2MDQ2MTMsImp0aSI6IjA0MDE4N2YyNTRjZjQ0N2E4NjU5YmYzNmY2OWRkZDExIiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.LR5z6fqEuZaA5CqoVlumuOG1uOnuT-rcZMfoTMTHPHs
+2025-10-05 00:33:33,831 - INFO - API login successful
+2025-10-05 00:33:33,839 - DEBUG - Login Response JSON: {'status': {'code': 200, 'message': 'Logged in successfully'}, 'data': {'token': {'refresh': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1OTcxMjYxMywiaWF0IjoxNzU5NjA0NjEzLCJqdGkiOiJmZDQxOGMxZGQzOWQ0MTY0YjUwOGNjYWM3MjMwNjI1NyIsInVzZXJfaWQiOiJsYWtzaHlhc2hhcm1hcWFAcHJvdG9uLm1lIn0.-di87SuerxhcvMZi0b5IRf-nfwHQe97nH_o8PBPKT7s', 'access': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU5NjkxMDEzLCJpYXQiOjE3NTk2MDQ2MTMsImp0aSI6ImU0MTRmNTUzMjg1ODQ0NzQ4NTk5ZjllMGZjNmMwMzU4IiwidXNlcl9pZCI6Imxha3NoeWFzaGFybWFxYUBwcm90b24ubWUifQ.EXdq7agp62q1tuXbHEwlEOvUvq2RpyPgRo9O-Wixkmo'}, 'id': 79, 'first_name': 'lakshya', 'email': 'lakshyasharmaqa@proton.me', 'last_name': 'sharmaAPPR', 'resource_list': [{'module': 'report', 'permissions': ['delete', 'add', 'view', 'edit', 'download']}, {'module': 'dashboard', 'permissions': ['view', 'delete', 'add', 'edit']}, {'module': 'assessment', 'permissions': ['delete', 'add', 'edit', 'view']}], 'roles': ['proctor', 'approver'], 'is_primary': False}}
+2025-10-05 00:33:33,965 - INFO - User list fetched successfully
+2025-10-05 00:33:34,233 - INFO - Thar vehicle found successfully!
+2025-10-05 00:33:34,590 - INFO - Browser session stopped.
+2025-10-05 00:33:35,803 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:33:35,803 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:33:35,858 - INFO - Username filled
+2025-10-05 00:33:35,884 - INFO - Password filled
+2025-10-05 00:33:35,960 - INFO - Login button clicked
+2025-10-05 00:33:35,960 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-05 00:33:35,979 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:33:35,979 - INFO - Navigated to: https://dev.aeye.pro/itc/login
+2025-10-05 00:33:36,041 - INFO - Username filled
+2025-10-05 00:33:36,073 - INFO - Password filled
+2025-10-05 00:33:36,149 - INFO - Login button clicked
+2025-10-05 00:33:36,149 - INFO - Login attempted with username: lakshyasharmaqa@proton.me
+2025-10-05 00:33:38,384 - INFO - Login successful — Dashboard loaded.
+2025-10-05 00:33:38,392 - INFO - Test completed successfully.
+2025-10-05 00:33:38,540 - INFO - Login successful — Dashboard loaded.
+2025-10-05 00:33:38,548 - INFO - Test completed successfully.
+2025-10-05 00:33:39,104 - INFO - Browser session stopped.
+2025-10-05 00:33:39,110 - INFO - Browser session stopped.
+2025-10-05 00:34:05,902 - INFO - Browser session stopped.
+2025-10-05 00:34:56,100 - INFO - Launching chromium browser (headless=False).
+2025-10-05 00:34:59,946 - INFO - Browser session stopped.

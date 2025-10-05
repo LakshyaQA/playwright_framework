@@ -1,7 +1,7 @@
 # ✅ **Playwright Framework Setup and Best Practices**
 
 ## 🛠️ Installation Commands
-
+Test too fast slowdown using slow_mo = 500
 ```bash
 # Install Pytest and Playwright
 pip install pytest-playwright
@@ -427,4 +427,127 @@ pip install pytest-html
 pytest --html=report.html --self-contained-html
 pytest -n auto --html=report.html --self-contained-html
 --self-contained-html to embed CSS in HTML file
+
+
+Playwright Test viewer
+# ✅ Generate Trace headless mode only
+
+pytest -s -v Testcases/test_login.py --mybrowser=chromium --headless --alluredir=reports/allure-results --tracing on
+
+# Parallel test execution
+
+pytest -n 3 -s -v Testcases/test_base.py --mybrowser=chromium --headless --alluredir=reports/allure-results
+
+# with Trace
+
+pytest -n auto -s -v --mybrowser=chromium --headless --alluredir=reports/allure-results --tracing on
+
+# Trace viewer-paralell test execution with HTml report
+
+pytest -s -v -n auto --mybrowser=chromium --headless --html=report.html --tracing on
+
+# View Trace
+
+# After running tests with tracing enabled, you can view the trace files in the 'trace' directory.
+
+# Open the trace viewer using the following command:
+
+playwright show-trace trace/trace.zip
+playwright show-trace traces/test_search_iphone.zip
+
+
+Can ue claude ai and inastall locally and then use plugin in IDE
+npm install -g @anthropic-ai/claude-code
+
+MCP serverin in local system or vs code
+
+
+using  Windsurf plugin from codieum name cascade
+
+
+2m ago
+
+hi can you read my project structre and code
+
+I'll help you explore your project structure and code. Let's start by listing the contents of your project directory.
+
+Analyzed
+c:/Users/lakshya757/Desktop/playwright_framework
+Let me explore the key files and directories to better understand your Playwright test automation framework. I'll start by checking the
+requirements.txt
+ file to see the project dependencies.
+
+Let's explore the test cases to understand what's being tested. I'll check the Testcases directory:
+
+Analyzed
+Testcases
+Let's take a look at the
+test_login.py
+ file to understand the test cases better:
+
+Let's also check the PageObject directory to understand the page object model structure:
+
+Analyzed
+PageObject
+Let's take a look at the
+LoginPage.py
+ file to understand the page object implementation:
+
+I've analyzed your Playwright test automation framework. Here's a summary of your project structure and key components:
+
+Project Structure
+Base/: Contains base classes and configurations
+PageObject/: Implements the Page Object Model (POM) pattern
+Testcases/: Contains test scripts
+Utilities/: Houses utility functions and helpers
+reports/: Stores test execution reports
+screenshots/: For storing test execution screenshots
+traces/: Contains Playwright trace files
+Key Dependencies
+Playwright: For browser automation
+Pytest: Test framework
+Pytest-html: HTML test reports
+Allure-pytest: For advanced test reporting
+Other utilities: For logging, test data handling, etc.
+Test Implementation
+Page Object Model (POM):
+LoginPage.py
+ implements login functionality with proper locators and methods
+Uses a base page class for common functionality
+Includes proper logging and error handling
+Test Cases:
+test_login.py
+: Tests login functionality with parameterized test data
+test_amazon.py
+: Likely contains Amazon-specific tests
+test_api.py
+: For API testing
+test_search_thar.py
+: Appears to be a specific search test case
+Configuration:
+Uses a config.json file for test data and environment configuration
+Supports different environments (dev, staging, etc.)
+Reporting:
+Generates HTML reports
+Includes screenshots for failed tests
+Supports Allure reporting
+Utilities:
+Custom logging implementation
+Helper functions for common operations
+Observations
+Well-structured framework following best practices
+Good separation of concerns (test logic, page objects, utilities)
+Includes proper error handling and logging
+Supports both UI and API testing
+Uses environment-specific configurations
+Would you like me to explore any specific part of the codebase in more detail? For example:
+
+The base page implementation
+Test data structure
+API testing implementation
+Reporting configuration
+Any specific test case
+Feedback submitted. Thank you!
+
+
 
